@@ -23,13 +23,6 @@
     },
     "baseUrl": "."
   },
-  "include": [
-    "client/src/**/*",
-    "server/**/*",
-    "shared/**/*",
-    "*.ts",
-    "*.mjs",
-    "vite.config.ts"
-  ],
+  "include": ["client/src/**/*", "server/**/*", "shared/**/*"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
