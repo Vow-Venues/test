@@ -8,7 +8,7 @@ const __dirname = dirname(__filename);
 import { type Server } from "http";
 import viteConfig from "../vite.config";
 import { nanoid } from "nanoid";
-import mongoose from "./db";
+import mongoose, { Types } from "./db";
 
 const viteLogger = createLogger();
 
@@ -62,7 +62,10 @@ export async function setupVite(app: Express, server: Server) {
       res.json(venues || []);
     } catch (error) {
       console.error('Error fetching venues:', error);
-      res.status(500).json({ error: 'Internal server error', details: error.message });
+      res.status(500).json({ 
+        error: 'Internal server error', 
+        details: String(error) 
+      });
     }
   });
 
@@ -80,7 +83,7 @@ export async function setupVite(app: Express, server: Server) {
       }
 
       const { Venue } = await import('@shared/schema');
-      const venue = await Venue.findById(id.toString()).lean();
+      const venue = await Venue.findById(new Types.ObjectId(id)).lean();
       
       if (!venue) {
         log(`Venue not found with ID: ${id}`);
@@ -93,10 +96,10 @@ export async function setupVite(app: Express, server: Server) {
       log(`Found venue: ${venue.name} (${venue._id})`);
       res.json(venue);
     } catch (error) {
-      console.error('Error fetching venue:', error instanceof Error ? error.message : String(error));
+      console.error('Error fetching venue:', error);
       res.status(500).json({ 
         error: 'Internal server error', 
-        details: error instanceof Error ? error.message : String(error)
+        details: String(error) 
       });
     }
   });
