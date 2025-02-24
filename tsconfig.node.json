@@ -9,7 +9,6 @@
     "types": ["node"],
     "outDir": "dist",
     "declaration": true,
-    "emitDeclarationOnly": true,
     "rootDir": ".",
     "esModuleInterop": true
   },
