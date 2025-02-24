@@ -24,9 +24,7 @@ const bookingSchema = z.object({
   email: z.string().email("Invalid email address"),
   phone: z.string().min(10, "Phone number must be at least 10 digits"),
   date: z.string().min(1, "Please select a date"),
-  guests: z.string().transform(Number).pipe(
-    z.number().min(1, "Must have at least 1 guest")
-  ),
+  guests: z.coerce.number().min(1, "Must have at least 1 guest"),
   notes: z.string(),
 });
 
@@ -44,7 +42,7 @@ export function BookingForm({ venue }: BookingFormProps) {
       email: "",
       phone: "",
       date: "",
-      guests: "1",
+      guests: 1,
       notes: "",
     },
   });

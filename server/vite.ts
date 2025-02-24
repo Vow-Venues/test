@@ -80,7 +80,7 @@ export async function setupVite(app: Express, server: Server) {
       }
 
       const { Venue } = await import('@shared/schema');
-      const venue = await Venue.findById(id).lean();
+      const venue = await Venue.findById(id.toString()).lean();
       
       if (!venue) {
         log(`Venue not found with ID: ${id}`);
@@ -93,8 +93,11 @@ export async function setupVite(app: Express, server: Server) {
       log(`Found venue: ${venue.name} (${venue._id})`);
       res.json(venue);
     } catch (error) {
-      console.error('Error fetching venue:', error);
-      res.status(500).json({ error: 'Internal server error', details: error.message });
+      console.error('Error fetching venue:', error instanceof Error ? error.message : String(error));
+      res.status(500).json({ 
+        error: 'Internal server error', 
+        details: error instanceof Error ? error.message : String(error)
+      });
     }
   });
 
