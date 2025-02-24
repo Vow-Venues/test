@@ -93,7 +93,7 @@ export async function setupVite(app: Express, server: Server) {
       }
       
       // Ensure the _id is converted to string
-      venue._id = venue._id.toString();
+      venue._id = venue._id.toString() as any;
       log(`Found venue: ${venue.name} (${venue._id})`);
       res.json(venue);
     } catch (error) {
