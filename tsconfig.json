@@ -24,5 +24,6 @@
     "baseUrl": "."
   },
   "include": ["client/src/**/*", "server/**/*", "shared/**/*"],
+  "exclude": ["vite.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
