@@ -1,0 +1,506 @@
+[{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c50"
+  },
+  "name": "Haleem Banquet",
+  "capacity": 500,
+  "additionalMetric": 100,
+  "phone": "500",
+  "address": "100\t3339192469\tGT Road Peshawar",
+  "price": 80000,
+  "email": "haleembanquet@gmail.com",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.176Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c51"
+  },
+  "name": "Roman Gathering Hall",
+  "capacity": 600,
+  "additionalMetric": 50,
+  "phone": "600",
+  "address": "50\t3029003025\tCircular Road Peshawar",
+  "price": 23000,
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.178Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c52"
+  },
+  "name": "Unique Wdding Hall",
+  "capacity": 800,
+  "additionalMetric": 0,
+  "phone": "800",
+  "address": "0\t3169089966\tCircular Road Peshawar",
+  "price": 40000,
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.178Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c53"
+  },
+  "name": "Galaxy Event Hall",
+  "capacity": 600,
+  "additionalMetric": 150,
+  "phone": "600",
+  "address": "150\t0\tUniversity Road, Peshawar",
+  "price": 100000,
+  "email": "galaxyhallpk@gmail.com",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.178Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c54"
+  },
+  "name": "Al-Madina Marriage Hall",
+  "capacity": 300,
+  "additionalMetric": 50,
+  "phone": "300",
+  "address": "50\t0\tRing Road, Peshawar",
+  "price": 0,
+  "email": "almadinaevents@gmail.com",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.178Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c55"
+  },
+  "name": "Rehman Banquet Hall",
+  "capacity": 250,
+  "additionalMetric": 40,
+  "phone": "250",
+  "address": "40\t0\tRehman Banquet Hall",
+  "price": 50000,
+  "email": "rehmanbanquetpk@gmail.com",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.178Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c56"
+  },
+  "name": "Sunehri Mahal Wedding Hall",
+  "capacity": 800,
+  "additionalMetric": 80,
+  "phone": "800",
+  "address": "80\t0300-1122334\tNear Saddar, Peshawar",
+  "price": 80000,
+  "email": "sunehri@wedding.pk",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.178Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c57"
+  },
+  "name": "Gulzar Banquet Hall",
+  "capacity": 700,
+  "additionalMetric": 70,
+  "phone": "700",
+  "address": "70\t0330-9988776\tKhyber Road, Peshawar",
+  "price": 90000,
+  "email": "gulzarbanquet@gmail.com",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.178Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c58"
+  },
+  "name": "Zarqa Banquet Hall",
+  "capacity": 600,
+  "additionalMetric": 120,
+  "phone": "600",
+  "address": "120\t0342-5556667\tUniversity Road, Peshawar",
+  "price": 95000,
+  "email": "zarqa.banquet@gmail.com",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.178Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c59"
+  },
+  "name": "Jasmine Banquet Hall",
+  "capacity": 500,
+  "additionalMetric": 100,
+  "phone": "500",
+  "address": "100\t0300-3344556\tNear Saddar, Peshawar",
+  "price": 85000,
+  "email": "jasminehall@gmail.com",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c5a"
+  },
+  "name": "Shalimar Banquet Hall",
+  "capacity": 600,
+  "additionalMetric": 60,
+  "phone": "600",
+  "address": "60\t0302-3344556\tShah Alam Market, Peshawar",
+  "price": 120000,
+  "email": "shalimarbanquet@gmail.com",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c5b"
+  },
+  "name": "Marbella Cave",
+  "capacity": 1200,
+  "additionalMetric": 300,
+  "phone": "1200",
+  "address": "300\t3218585815\tkanal road, sher ali town, Peshawar",
+  "price": 206500,
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c5c"
+  },
+  "name": "Sabrina Gulbahar Banquet Hall",
+  "capacity": 100,
+  "additionalMetric": 100,
+  "phone": "100",
+  "address": "100\t3028593000\tGulbahar shakarpura, Peshawar",
+  "price": 150000,
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c5d"
+  },
+  "name": "Casa Loma Banquet Hall",
+  "capacity": 1000,
+  "additionalMetric": 100,
+  "phone": "1000",
+  "address": "100\t3452662660\tSaif Shopping Mall, Jamrud Road, Peshawar",
+  "price": 146000,
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c5e"
+  },
+  "name": "Dream Marriage Hall",
+  "capacity": 1200,
+  "additionalMetric": 300,
+  "phone": "1200",
+  "address": "300\t0345-5555555\tWarsak Road, Peshawar",
+  "price": 130000,
+  "email": "info@dreammarriage.pk",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c5f"
+  },
+  "name": "Peshawar Services Club Banquet Hall",
+  "capacity": 300,
+  "additionalMetric": 50,
+  "phone": "300",
+  "address": "50\t0341-9777711\tThe Mall, Peshawar Cantt",
+  "price": 150000,
+  "email": "info@peshawarserviceclub.com",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c60"
+  },
+  "name": "Feroz Banquet Hall",
+  "capacity": 700,
+  "additionalMetric": 100,
+  "phone": "700",
+  "address": "100\t0344-5566778\tF.B. Area, Peshawar",
+  "price": 110100,
+  "email": "ferozbanquet@gmail.com",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c61"
+  },
+  "name": "Basant Banquet Hall",
+  "capacity": 650,
+  "additionalMetric": 110,
+  "phone": "650",
+  "address": "110\t0332-6677889\tSaddar, Peshawar",
+  "price": 150000,
+  "email": "basantbanquet@gmail.com",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c62"
+  },
+  "name": "Royal Club Wedding Hall",
+  "capacity": 900,
+  "additionalMetric": 90,
+  "phone": "900",
+  "address": "90\t0344-1234567\tHayatabad, Peshawar",
+  "price": 200000,
+  "email": "royalclubwedding@gmail.com",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c63"
+  },
+  "name": "Al Noor Banquet Hall",
+  "capacity": 800,
+  "additionalMetric": 120,
+  "phone": "800",
+  "address": "120\t0300-9988777\tPhase 7, Hayatabad, Peshawar",
+  "price": 250000,
+  "email": "alnoorbanquet@gmail.com",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c64"
+  },
+  "name": "Gulshan Banquet Hall",
+  "capacity": 750,
+  "additionalMetric": 100,
+  "phone": "750",
+  "address": "100\t0332-3344556\tSaddar, Peshawar",
+  "price": 210000,
+  "email": "gulshanbanquet@gmail.com",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c65"
+  },
+  "name": "Sajjad Banquet Hall",
+  "capacity": 750,
+  "additionalMetric": 100,
+  "phone": "750",
+  "address": "100\t0346-9288776\tNear Saddar, Peshawar",
+  "price": 200000,
+  "email": "sajjadbanquet@gmail.com",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c66"
+  },
+  "name": "Pearl Continental Hotel Peshawar",
+  "capacity": 1200,
+  "additionalMetric": 150,
+  "phone": "1200",
+  "address": "150\t915276361\tKhyber Rd, Peshawar",
+  "price": 250000,
+  "email": "peshawar.reservations@pc.com.pk",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c67"
+  },
+  "name": "monal marquee peshawar",
+  "capacity": 800,
+  "additionalMetric": 100,
+  "phone": "800",
+  "address": "100\t091-7242223\tsahibzadagul Road Peshawar",
+  "price": 200000,
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c68"
+  },
+  "name": "Imperial Grand Banquet Hall",
+  "capacity": 1500,
+  "additionalMetric": 200,
+  "phone": "1500",
+  "address": "200\t0345-1112223\tPlot No. 10, Phase 8, Hayatabad, Peshawar",
+  "price": 500000,
+  "email": "info@imperialgrand.pk",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c69"
+  },
+  "name": "Elite Royale Wedding Palace",
+  "capacity": 2000,
+  "additionalMetric": 250,
+  "phone": "2000",
+  "address": "250\t0300-2223334\tDiplomatic Enclave, Peshawar",
+  "price": 750000,
+  "email": "elite@royalepalace.pk",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c6a"
+  },
+  "name": "Crown Regency Banquet Hall",
+  "capacity": 1800,
+  "additionalMetric": 220,
+  "phone": "1800",
+  "address": "220\t0333-4445556\tSaddar, Peshawar",
+  "price": 600000,
+  "email": "crownregency@weddings.pk",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c6b"
+  },
+  "name": "Majestic Elegance Banquet Hall",
+  "capacity": 2200,
+  "additionalMetric": 300,
+  "phone": "2200",
+  "address": "300\t0346-7778889\tF.B. Area, Peshawar",
+  "price": 800000,
+  "email": "info@majesticweddings.pk",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c6c"
+  },
+  "name": "Premier Luxury Banquet Hall",
+  "capacity": 2000,
+  "additionalMetric": 260,
+  "phone": "2000",
+  "address": "260\t0333-7776665\tF.B. Area, Peshawar",
+  "price": 800000,
+  "email": "premierluxury@weddings.pk",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c6d"
+  },
+  "name": "Grand Imperial Marquee",
+  "capacity": 2800,
+  "additionalMetric": 320,
+  "phone": "2800",
+  "address": "320\t0348-5554443\tDiplomatic Enclave, Peshawar",
+  "price": 1000000,
+  "email": "grandimperial@weddings.pk",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c6e"
+  },
+  "name": "Regal Elite Banquet Hall",
+  "capacity": 2500,
+  "additionalMetric": 300,
+  "phone": "2500",
+  "address": "300\t0347-8888990\tPhase 9, Hayatabad, Peshawar",
+  "price": 900000,
+  "email": "regalelite@weddings.pk",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bab5975cd11a189e0b8c6f"
+  },
+  "name": "Royal Excellence Marquee",
+  "capacity": 2200,
+  "additionalMetric": 280,
+  "phone": "2200",
+  "address": "280\t0301-3344567\tNear Shahi Bagh, Peshawar",
+  "price": 850000,
+  "email": "royalexcellence@weddings.pk",
+  "createdAt": {
+    "$date": "2025-02-23T05:43:51.179Z"
+  },
+  "__v": 0
+}]
