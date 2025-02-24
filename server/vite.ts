@@ -8,7 +8,8 @@ const __dirname = dirname(__filename);
 import { type Server } from "http";
 import viteConfig from "../vite.config";
 import { nanoid } from "nanoid";
-import mongoose, { Types } from "./db";
+import mongoose from "./db";
+import { Types } from "mongoose";
 
 const viteLogger = createLogger();
 
